@@ -12,7 +12,8 @@ export const mapDashData: MiniGameData = {
             options: ['Massachusetts', 'Delaware', 'Virginia', 'Georgia'],
             correctAnswer: 'Delaware',
             positiveFeedback: 'Great job! The Middle Colonies were New York, Pennsylvania, New Jersey, and Delaware.',
-            negativeFeedback: 'Not quite. The Middle Colonies were New York, Pennsylvania, New Jersey, and Delaware.'
+            negativeFeedback: 'Not quite. The Middle Colonies were New York, Pennsylvania, New Jersey, and Delaware.',
+            npc: 'Colonial Surveyor'
         },
         {
             id: 'md-2',
@@ -21,7 +22,8 @@ export const mapDashData: MiniGameData = {
             options: ['True', 'False'],
             correctAnswer: 'False',
             positiveFeedback: 'Correct! The Atlantic Ocean bordered them to the east, not the Pacific.',
-            negativeFeedback: 'Actually, that is false. The Atlantic Ocean was to the east.'
+            negativeFeedback: 'Actually, that is false. The Atlantic Ocean was to the east.',
+            npc: 'Ship Captain'
         },
         {
             id: 'md-3',
@@ -30,7 +32,8 @@ export const mapDashData: MiniGameData = {
             options: ['Rocky Mountains', 'Appalachian Mountains', 'Andes Mountains', 'Cascade Mountains'],
             correctAnswer: 'Appalachian Mountains',
             positiveFeedback: 'You got it! The Appalachian Mountains formed the western border.',
-            negativeFeedback: 'Keep exploring! It was the Appalachian Mountains.'
+            negativeFeedback: 'Keep exploring! It was the Appalachian Mountains.',
+            npc: 'Frontier Scout'
         },
         {
             id: 'md-4',
@@ -39,7 +42,8 @@ export const mapDashData: MiniGameData = {
             options: ['Fisherman Colonies', 'Breadbasket Colonies', 'Trade Hubs', 'Lumber Makers'],
             correctAnswer: 'Breadbasket Colonies',
             positiveFeedback: 'Yes! They grew so much food they were called the Breadbasket Colonies.',
-            negativeFeedback: 'Not exactly. They were called the Breadbasket Colonies.'
+            negativeFeedback: 'Not exactly. They were called the Breadbasket Colonies.',
+            npc: 'Local Farmer'
         },
         {
             id: 'md-5',
@@ -48,7 +52,8 @@ export const mapDashData: MiniGameData = {
             options: ['Rocky and hard', 'Dry and sandy', 'Fertile soil', 'Frozen soil'],
             correctAnswer: 'Fertile soil',
             positiveFeedback: 'Exactly! The soil was very fertile and great for growing crops.',
-            negativeFeedback: 'It was actually very fertile soil, perfect for crops.'
+            negativeFeedback: 'It was actually very fertile soil, perfect for crops.',
+            npc: 'Local Farmer'
         },
         {
             id: 'md-6',
@@ -57,7 +62,8 @@ export const mapDashData: MiniGameData = {
             options: ['Shipbuilding only', 'Agriculture', 'Whaling', 'Gold mining'],
             correctAnswer: 'Agriculture',
             positiveFeedback: 'Right! Agriculture (or farming) was incredibly important here.',
-            negativeFeedback: 'The most important part of the economy was agriculture.'
+            negativeFeedback: 'The most important part of the economy was agriculture.',
+            npc: 'Merchant'
         },
         {
             id: 'md-7',
@@ -66,7 +72,8 @@ export const mapDashData: MiniGameData = {
             options: ['Corn and wheat', 'Cotton and tobacco', 'Rice and indigo', 'Fish and silk'],
             correctAnswer: 'Corn and wheat',
             positiveFeedback: 'Delicious! Corn and wheat were the major exports.',
-            negativeFeedback: 'The main crops they exported to other places were corn and wheat.'
+            negativeFeedback: 'The main crops they exported to other places were corn and wheat.',
+            npc: 'Merchant'
         },
         {
             id: 'md-8',
@@ -75,7 +82,8 @@ export const mapDashData: MiniGameData = {
             options: ['Only furniture', 'Homes and ships', 'Wagons and trains', 'Fences only'],
             correctAnswer: 'Homes and ships',
             positiveFeedback: 'Excellent! The wood was used to build strong homes and ships.',
-            negativeFeedback: 'Lumber from the vast forests was used to build homes and ships.'
+            negativeFeedback: 'Lumber from the vast forests was used to build homes and ships.',
+            npc: 'Shipwright'
         }
     ]
 };
@@ -92,7 +100,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['George Washington', 'William Penn', 'Thomas Jefferson', 'King George'],
             correctAnswer: 'William Penn',
             positiveFeedback: 'Spot on! William Penn founded it.',
-            negativeFeedback: 'It was William Penn who founded Pennsylvania.'
+            negativeFeedback: 'It was William Penn who founded Pennsylvania.',
+            npc: 'Quaker Elder'
         },
         {
             id: 'ppp-2',
@@ -101,7 +110,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['celebrated', 'persecuted', 'rewarded', 'promoted'],
             correctAnswer: 'persecuted',
             positiveFeedback: 'Yes, they were persecuted, which means they were treated unfairly for what they believed.',
-            negativeFeedback: 'They were persecuted, meaning they were treated terribly for their beliefs.'
+            negativeFeedback: 'They were persecuted, meaning they were treated terribly for their beliefs.',
+            npc: 'Quaker Immigrant'
         },
         {
             id: 'ppp-3',
@@ -110,7 +120,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['True', 'False'],
             correctAnswer: 'True',
             positiveFeedback: 'Yes, they were escaping bad treatment to find a safer, fairer home.',
-            negativeFeedback: 'It is true! They wanted to escape unfair treatment.'
+            negativeFeedback: 'It is true! They wanted to escape unfair treatment.',
+            npc: 'Quaker Immigrant'
         },
         {
             id: 'ppp-4',
@@ -119,7 +130,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['Fairly and equally', 'Differently', 'Harshly', 'By their rank'],
             correctAnswer: 'Fairly and equally',
             positiveFeedback: 'Yes! Fairness and equality were at the heart of their beliefs.',
-            negativeFeedback: 'They deeply believed everyone should be treated fairly and equally.'
+            negativeFeedback: 'They deeply believed everyone should be treated fairly and equally.',
+            npc: 'Quaker Elder'
         },
         {
             id: 'ppp-5',
@@ -128,7 +140,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['True', 'False'],
             correctAnswer: 'False',
             positiveFeedback: 'Right! Anyone could speak if they felt moved to. There were no chosen speakers.',
-            negativeFeedback: 'Actually, that is false. They had no chosen speakers at meetings.'
+            negativeFeedback: 'Actually, that is false. They had no chosen speakers at meetings.',
+            npc: 'Quaker Friend'
         },
         {
             id: 'ppp-6',
@@ -137,7 +150,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['Voting', 'Slavery', 'Farming', 'Reading'],
             correctAnswer: 'Slavery',
             positiveFeedback: 'Exactly. They believed slavery was wrong and argued against it early on.',
-            negativeFeedback: 'They were one of the early groups to argue against slavery.'
+            negativeFeedback: 'They were one of the early groups to argue against slavery.',
+            npc: 'Abolitionist'
         },
         {
             id: 'ppp-7',
@@ -146,7 +160,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['Pay taxes', 'Join the army', 'Build boats', 'Eat meat'],
             correctAnswer: 'Join the army',
             positiveFeedback: 'Correct. They were peaceful and refused to join the army.',
-            negativeFeedback: 'They refused to join the army because they thought fighting was wrong.'
+            negativeFeedback: 'They refused to join the army because they thought fighting was wrong.',
+            npc: 'Pacifist'
         },
         {
             id: 'ppp-8',
@@ -155,7 +170,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['Self-government', 'Religious freedom', 'Apprenticeship', 'Taxation'],
             correctAnswer: 'Religious freedom',
             positiveFeedback: 'That is right! Everyone was promised religious freedom.',
-            negativeFeedback: 'It is called religious freedom.'
+            negativeFeedback: 'It is called religious freedom.',
+            npc: 'William Penn'
         },
         {
             id: 'ppp-9',
@@ -164,7 +180,8 @@ export const pennsPeacePathData: MiniGameData = {
             options: ['He fought them constantly', 'Fairly and peacefully', 'He ignored them', 'He took their land without asking'],
             correctAnswer: 'Fairly and peacefully',
             positiveFeedback: 'Correct. He made fair treaties and wanted to live in peace with equality.',
-            negativeFeedback: 'He treated them fairly, peacefully, and with equality.'
+            negativeFeedback: 'He treated them fairly, peacefully, and with equality.',
+            npc: 'Lenape Chief'
         }
     ]
 };
@@ -181,7 +198,8 @@ export const franklinsLightningLabData: MiniGameData = {
             options: ['Light bulb', 'Lightning rod', 'Electric fence', 'Battery'],
             correctAnswer: 'Lightning rod',
             positiveFeedback: 'Zzzap! Yes, he invented the lightning rod to keep homes safe.',
-            negativeFeedback: 'It was the lightning rod that protected buildings from lightning.'
+            negativeFeedback: 'It was the lightning rod that protected buildings from lightning.',
+            npc: 'Benjamin Franklin'
         },
         {
             id: 'fll-2',
@@ -190,7 +208,8 @@ export const franklinsLightningLabData: MiniGameData = {
             options: ['True', 'False'],
             correctAnswer: 'False',
             positiveFeedback: 'Correct! He was a famous inventor, scientist, and leader, but he was never President.',
-            negativeFeedback: 'Actually, it is False. He was very important, but never became President.'
+            negativeFeedback: 'Actually, it is False. He was very important, but never became President.',
+            npc: 'Historian'
         },
         {
             id: 'fll-3',
@@ -199,7 +218,8 @@ export const franklinsLightningLabData: MiniGameData = {
             options: ['Electric Blanket', 'Franklin Stove', 'Solar Heater', 'Campfire Fan'],
             correctAnswer: 'Franklin Stove',
             positiveFeedback: 'Cozy! The Franklin Stove was a great heating invention.',
-            negativeFeedback: 'He invented the Franklin Stove to make heating homes better.'
+            negativeFeedback: 'He invented the Franklin Stove to make heating homes better.',
+            npc: 'Town Blacksmith'
         },
         {
             id: 'fll-4',
@@ -208,7 +228,8 @@ export const franklinsLightningLabData: MiniGameData = {
             options: ['Gold', 'Copper', 'Iron', 'Silver'],
             correctAnswer: 'Iron',
             positiveFeedback: 'Strong answer! They manufactured important iron items like tools and kettles.',
-            negativeFeedback: 'They mostly manufactured iron items.'
+            negativeFeedback: 'They mostly manufactured iron items.',
+            npc: 'Ironworker'
         }
     ]
 };
@@ -225,7 +246,8 @@ export const colonyTownChallengeData: MiniGameData = {
             options: ['Self-government', 'Dictatorship', 'Monarchy', 'Empire building'],
             correctAnswer: 'Self-government',
             positiveFeedback: 'Right! They practiced self-government to run their towns.',
-            negativeFeedback: 'It was called self-government.'
+            negativeFeedback: 'It was called self-government.',
+            npc: 'Town Magistrate'
         },
         {
             id: 'ctc-2',
@@ -234,7 +256,8 @@ export const colonyTownChallengeData: MiniGameData = {
             options: ['Kings Council', 'Legislature', 'Jury', 'Court'],
             correctAnswer: 'Legislature',
             positiveFeedback: 'Exactly! The legislature made the local rules and laws.',
-            negativeFeedback: 'They elected a legislature to make the laws.'
+            negativeFeedback: 'They elected a legislature to make the laws.',
+            npc: 'Legislator'
         },
         {
             id: 'ctc-3',
@@ -243,7 +266,8 @@ export const colonyTownChallengeData: MiniGameData = {
             options: ['True', 'False'],
             correctAnswer: 'False',
             positiveFeedback: 'Correct. Landowners were at the top, but indentured servants had very little power and were near the bottom.',
-            negativeFeedback: 'That is false. Only landowners were at the top; indentured servants were near the bottom.'
+            negativeFeedback: 'That is false. Only landowners were at the top; indentured servants were near the bottom.',
+            npc: 'Wealthy Merchant'
         },
         {
             id: 'ctc-4',
@@ -252,7 +276,8 @@ export const colonyTownChallengeData: MiniGameData = {
             options: ['permanent', 'temporary', 'royal', 'wealthy'],
             correctAnswer: 'temporary',
             positiveFeedback: 'Yes! Indentured servants were temporary workers who eventually became free.',
-            negativeFeedback: 'They were temporary workers (they only worked for a set number of years).'
+            negativeFeedback: 'They were temporary workers (they only worked for a set number of years).',
+            npc: 'Indentured Servant'
         },
         {
             id: 'ctc-5',
@@ -261,7 +286,8 @@ export const colonyTownChallengeData: MiniGameData = {
             options: ['Apprentices', 'Journey workers', 'Enslaved workers', 'Governors'],
             correctAnswer: 'Enslaved workers',
             positiveFeedback: 'Correct. It was a very unfair and hard reality for enslaved workers.',
-            negativeFeedback: 'These were enslaved workers, who were forced to work without rights or pay.'
+            negativeFeedback: 'These were enslaved workers, who were forced to work without rights or pay.',
+            npc: 'Free Laborer'
         },
         {
             id: 'ctc-6',
@@ -270,7 +296,8 @@ export const colonyTownChallengeData: MiniGameData = {
             options: ['Apprentice', 'Indentured servant', 'Owner', 'Governor'],
             correctAnswer: 'Apprentice',
             positiveFeedback: 'Right! An apprentice spent years learning a useful skill.',
-            negativeFeedback: 'That learning worker was an apprentice.'
+            negativeFeedback: 'That learning worker was an apprentice.',
+            npc: 'Master Craftsman'
         },
         {
             id: 'ctc-7',
@@ -279,7 +306,8 @@ export const colonyTownChallengeData: MiniGameData = {
             options: ['Master', 'Journeyman', 'Servant', 'Mayor'],
             correctAnswer: 'Journeyman',
             positiveFeedback: 'Great job! A journeyman was skilled enough to work for pay.',
-            negativeFeedback: 'After being an apprentice, they became a journeyman.'
+            negativeFeedback: 'After being an apprentice, they became a journeyman.',
+            npc: 'Journeyman'
         }
     ]
 };
